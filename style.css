@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+#navItem1 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.Logo {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.banner-section {
+    background-image: url("raphael-lovaski-pxax5WuM7eY-unsplash.jpg");
+    height:100vh ;
+    background-size: cover;
+    position: relative;
+}
+.heading{
+    font-size: 42px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.desc{
+    font-size: 32px;
+}
+.btn{
+    width: 200px;
+    font-size: 22px;
+    border-radius: 25px;
+    padding: 20px auto;
+}
+.quote{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: rgba(239, 229, 229, 0.844);
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+.image-card{
+    background-color: white;
+    border-radius: 25px;
+    transition: .3s;
+}
+.image-card:hover{
+    transform: rotate(1.5deg);
+}
+.item-image{
+    border-radius: 16px;
+}
+.icon{
+    font-size: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.icon:hover{
+    font-size: 34px;
+    color: darkkhaki;
+    margin-bottom: 10px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
