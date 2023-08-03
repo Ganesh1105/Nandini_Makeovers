@@ -30,6 +30,7 @@
     background-image: url("raphael-lovaski-pxax5WuM7eY-unsplash.jpg");
     height:100vh ;
     background-size: cover;
+    object-fit: cover;
     position: relative;
 }
 .heading{
@@ -58,25 +59,27 @@
 }
 .image-card{
     background-color: white;
+    margin-bottom: 5px;
     border-radius: 25px;
     transition: .3s;
 }
-.image-card:hover{
-    transform: rotate(1.5deg);
-}
+
 .item-image{
     border-radius: 16px;
 }
 .icon{
-    font-size: 30px;
+    font-size: 36px;
     margin: 0px 5px;
     cursor: pointer;
+    transition: .5s;
+    
 }
 .icon:hover{
     font-size: 34px;
     color: darkkhaki;
     margin-bottom: 10px;
 }
+
 .nav-link:hover{
     text-decoration: underline;
 }
